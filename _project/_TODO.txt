@@ -1,5 +1,0 @@
-What I need:
- - I need them to submit me the tags and descriptions they want for the meta tags
- - I need a favicon.
- - All Assets
- - All content (text)
