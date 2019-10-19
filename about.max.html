@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Gym School</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <!-- TODO: Adjust the following 2 -->
+    <meta name="description" content="DESCRIPTION NEEDED" />
+    <meta name="keywords" content="XXXX, XXXXX, XXXXX" />
+    <meta name="viewport" content="width=950px">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="slide.js"></script>
+  </head>
+  <body>
+    <header style="background-image: url('assets/about/1.png')">
+      <div class="nav-sticky">
+        <div class="sub">
+          <img src="assets/logo-s.webp" onerror="this.src='assets/logo-s.png';">
+          <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="guides.html">Guides</a>
+            <a href="about.html">About Us</a>
+            <div class="line c"></div>
+          </div>
+        </div>
+        <button>Join Today <i class="fa fa-arrow-right"></i></button>
+      </div>
+      <script>
+      var isTop = true;
+      window.addEventListener('scroll', function() {
+        if ($(window).scrollTop() >= 110 && isTop == true) {
+          $('.nav-sticky').css('display','grid');
+          $('.nav-sticky').animate({'opacity':1},250);
+          isTop = false;
+        } else if ($(window).scrollTop() < 110 && isTop == false) {
+          $('.nav-sticky').animate({'opacity':0},250);
+          $('.nav-sticky').css('display','none');
+          isTop = true;
+        }
+      });
+      </script>
+      <nav>
+        <div class="sub">
+          <img src="assets/logo.webp" onerror="this.src='assets/logo.png';">
+          <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="guides.html">Guides</a>
+            <a href="about.html">About Us</a>
+            <div class="line c"></div>
+          </div>
+        </div>
+        <button>Join Today <i class="fa fa-arrow-right"></i></button>
+      </nav>
+
+      <div class="banner-about">
+        <div>
+          <h1><strong>Rule #1,</strong> don’t talk about Gym School.</h1>
+          <button class="buttonWhite">Join Today <i class="fa fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </header>
+
+
+
+
+
+
+
+    <section class="feature f-b" style="background-image: url('assets/about/2.png');background-position: top left;">
+      <div class="text">
+        <h3>
+          Our guides have <strong>proven</strong> tips that can help any gym.
+        </h3>
+      </div>
+    </section>
+    <section class="feature f-a" style="background-image: url('assets/about/3.png');background-position: top right;">
+      <div class="text" style="color: white;">
+        <h3>
+          We give you <strong>one guide</strong> at a time to help you focus. Do it. Don’t wait.
+        </h3>
+      </div>
+    </section>
+    <section class="feature f-b" style="background-image: url('assets/about/4.png');background-position: top left;">
+      <div class="text">
+        <h3>
+          Know a gym owner? <strong>Get 25%</strong> for a referral.
+        </h3>
+      </div>
+    </section>
+    <section class="feature f-a" style="background-image: url('assets/about/5.png');background-position: top right;">
+      <div class="text">
+        <h3>
+          We share <strong>proprietary</strong> information. Sharing it will get you <strong>kicked out</strong> of our exclusive club.
+        </h3>
+      </div>
+    </section>
+    <section class="feature f-b" style="background-image: url('assets/about/6.png');background-position: top left;">
+      <div class="text">
+        <h3>
+          Each guide aims to brings in <strong>5-25</strong> new members + <strong>$1000-$5000</strong> in revenue.
+        </h3>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <footer>
+      <h3>Get. <strong>Shit.</strong> Done.</h3>
+      <div class="container">
+        <div>
+          <h4>Got questions?</h4>
+          <div class="contact">
+            <!-- <img src="assets/icons/phone.svg" alt="Facebook"><p>(416) 967-1111</p> -->
+            <img src="assets/icons/email.svg" alt="Facebook"><p>info@fightschool.com</p>
+          </div>
+        </div>
+        <div class="social">
+          <h4>Connect with us!</h4>
+          <img src="assets/icons/facebook.svg" alt="Facebook">
+          <img src="assets/icons/instagram.svg" alt="instagram">
+        </div>
+      </div>
+      <p class="copyright">2019 &copy; All Rights Reserved | Gym School Incorporated</p>
+    </footer>
+  </body>
+</html>

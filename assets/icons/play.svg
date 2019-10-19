@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="141px" height="206px" viewBox="0 0 141 206" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>play-button</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-2007.000000, -3819.000000)" fill="#FFFFFF">
+            <g id="Group-2" transform="translate(-1.000000, 3253.000000)">
+                <g id="Arrows" transform="translate(1964.000000, 566.000000)">
+                    <g id="play-button" transform="translate(44.000000, 0.000000)">
+                        <path d="M139.035097,98.960784 L7.13187097,0.863165903 C5.73551613,-0.171763968 3.92525806,-0.279671348 2.4333871,0.559063286 C0.936967742,1.40760768 0,3.07526719 0,4.89988289 L0,201.095119 C0,202.919735 0.936967742,204.592299 2.4333871,205.440844 C3.09745161,205.813615 3.82519355,206 4.5483871,206 C5.45351613,206 6.35409677,205.705707 7.13187097,205.131836 L139.035097,107.034218 C140.26771,106.117005 141,104.611207 141,102.997501 C141,101.383795 140.263161,99.8779967 139.035097,98.960784 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
